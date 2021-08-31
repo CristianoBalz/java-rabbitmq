@@ -1,0 +1,14 @@
+version: "3.2"
+services:  
+  rabbitmq: 
+    hostname: abbitmq  
+    image: rabbitmq:3.9.4-management
+    container_name: 'rabbitmq'
+    ports:
+        - 5672:5672
+        - 15672:15672
+    volumes:
+        - ./rabbitmq/etc/definitions.json:/etc/rabbitmq/definitions.json
+        - ./rabbitmq/etc/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+        - ./rabbitmq/data:/var/lib/rabbitmq/mnesia:rw
+        - ./rabbitmq/logs:/var/log/rabbitmq/log:rw

@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 14
+Class-Path: lib/jersey-container-grizzly2-http-3.0.2.jar lib/jakarta.inj
+ ect-api-2.0.0.jar lib/grizzly-http-server-3.0.0.jar lib/grizzly-http-3.
+ 0.0.jar lib/grizzly-framework-3.0.0.jar lib/jersey-common-3.0.2.jar lib
+ /jakarta.annotation-api-2.0.0.jar lib/osgi-resource-locator-1.0.3.jar l
+ ib/jersey-server-3.0.2.jar lib/jersey-client-3.0.2.jar lib/jakarta.vali
+ dation-api-3.0.0.jar lib/jakarta.ws.rs-api-3.0.0.jar lib/jersey-hk2-3.0
+ .2.jar lib/hk2-locator-3.0.1.jar lib/aopalliance-repackaged-3.0.1.jar l
+ ib/hk2-api-3.0.1.jar lib/hk2-utils-3.0.1.jar lib/javassist-3.25.0-GA.ja
+ r lib/jersey-media-json-jackson-3.0.2.jar lib/jersey-entity-filtering-3
+ .0.2.jar lib/jackson-annotations-2.12.2.jar lib/jackson-databind-2.12.2
+ .jar lib/jackson-core-2.12.2.jar lib/jackson-module-jaxb-annotations-2.
+ 12.2.jar lib/jaxb-api-2.3.1.jar lib/javax.activation-api-1.2.0.jar lib/
+ amqp-client-5.12.0.jar lib/slf4j-api-1.7.30.jar lib/gson-2.8.7.jar
+Main-Class: com.rabbitmq.rabbitmq_queues.Application
+Created-By: Maven Integration for Eclipse
+
