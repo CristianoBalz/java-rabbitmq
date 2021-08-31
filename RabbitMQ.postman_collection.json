@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "6b7b36ed-87d5-44b3-9b4c-edd9ad41c8bc",
+		"name": "RabbitMQ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create sample queues",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rabbitmq-queues/rest/queue/create-sample",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rabbitmq-queues",
+						"rest",
+						"queue",
+						"create-sample"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Start sample producer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rabbitmq-queues/rest/productor/start-sample",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rabbitmq-queues",
+						"rest",
+						"productor",
+						"start-sample"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Start sample consumer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rabbitmq-queues/rest/consumer/start-sample",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rabbitmq-queues",
+						"rest",
+						"consumer",
+						"start-sample"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "History",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rabbitmq-queues/rest/history/receive",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rabbitmq-queues",
+						"rest",
+						"history",
+						"receive"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Clear history",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rabbitmq-queues/rest/history/clear",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rabbitmq-queues",
+						"rest",
+						"history",
+						"clear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Stop sample producer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rabbitmq-queues/rest/productor/stop-sample",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rabbitmq-queues",
+						"rest",
+						"productor",
+						"stop-sample"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Stop sample consumers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rabbitmq-queues/rest/consumer/stop-sample",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rabbitmq-queues",
+						"rest",
+						"consumer",
+						"stop-sample"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
